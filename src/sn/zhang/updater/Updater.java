@@ -13,7 +13,7 @@ public class Updater {
 
     public void checkUpdate() {
         System.out.println("Checking Update");
-        String updateInfo = getURLContent(values.checkUrl);
+        String updateInfo = getURLContent(values.checkUrl + "?type=" + values.appType);
         //System.out.println(updateInfo);
         parseUpdateJson(updateInfo);
         /**System.out.println(values.updateUrl);           //  These     //
