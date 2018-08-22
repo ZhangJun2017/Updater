@@ -3,7 +3,7 @@ package sn.zhang.updater;
 public class Values {
     //Globe Vars Here
     String version = "1.0.0";
-    int versionCode = 100;
+    int versionCode = 108;
     String checkUrl = "http://update.zhang-jun.work/check.php";
     String appType = "debug";
     int updateChannel = 2;
